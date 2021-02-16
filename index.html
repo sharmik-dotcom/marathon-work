@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* a{text-decoration:none;}
+        a:is(#email){text-decoration: underline;}
+        a:hover {text-decoration: underline;}  */
+
+        a:where(:not(#email)){text-decoration: none;} 
+        a:hover {text-decoration: underline;}		          
+    </style>
+</head>
+<body>
+    <!-- Шапка страницы -->
+    <!--Main container-->
+    <div class="main-container">
+
+        <!--Main content container-->
+        <div class="main-content-container">
+
+            <!--About me container-->
+            <div class="about-me-container">
+                <h2 class="about-me-profession">Front-End Developer</h2>
+                <h1 class="about-me-name">Kateryna Sharamok</h1>
+                <p class="about-me-description" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            </div>
+
+            <!--Projects container-->
+            <div class="projects-container">
+                <h3 class="main-content-title" >Projects</h3>
+                <ol class="projects-list">
+                    <li class="projects-item">
+                        <span class="projects-item-text">
+                            <a href="https://hellenglish.goit.education/" class="projects-item-link">https://hellenglish.goit.education/</a>
+                            ...........................
+                            <span class="projects-item-bracket">[</span> HTML5, CSS3 <span class="projects-item-bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="projects-item">
+                        <span class="projects-item-text">
+                            <a href="https://cryptohub.goit.education/" class="projects-item-link">https://cryptohub.goit.education/</a>
+                            ............................
+                            <span class="projects-item-bracket">[</span> JavaScript <span class="projects-item-bracket">]</span>
+                        </span>
+                    </li>    
+                    <li class="projects-item">
+                        <span class="projects-item-text">
+                        <a href="https://kidslike.goit.education/" class="projects-item-link">https://kidslike.goit.education/</a> 
+                        ...................................
+                        <span class="projects-item-bracket">[</span> React.js, Node.js <span class="projects-item-bracket">]</span>
+                        </span>
+                    </li>
+                </ol>
+            </div>
+
+            <!--Work Experience container-->
+            <div class="work-experience-container">
+                <h3 class="main-content-title">Work Experience</h3>
+                
+                <!--Company3 container-->   
+                <div class="work-experience-company">
+                    <h4 class="main-content-title2"><span class="main-content-title2-position">Front-End Developer</span> Freelance</h4>
+                    <p class="main-content-periodplaceinfo">September 2019 - up to now <span class="main-content-periodplaceinfo-separator">|</span> Country</p>
+                    <ul class="work-experience-list">
+                        <li class="work-experience-item"><span class="work-experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></li>
+                        <li class="work-experience-item"><span class="work-experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></li>
+                        <li class="work-experience-item"><span class="work-experience-text">Risus commodo viverra maecenas.</span></li>
+                        <li class="work-experience-item"><span class="work-experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span></li>
+                    </ul>
+                </div>        
+                
+                <!--Company2 container-->
+                <div class="work-experience-company">
+                    <h4 class="main-content-title2"><span class="main-content-title2-position">Manager</span> Roga & Kopyta New</h4>
+                    <p class="main-content-periodplaceinfo">March 2015 - October 2018 <span class="main-content-periodplaceinfo-separator">|</span> Country</p>
+                    <ul class="work-experience-list">
+                        <li class="work-experience-item"><span class="work-experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</span></li>
+                        <li class="work-experience-item"><span class="work-experience-text">Quis ipsum suspendisse ultrices gravida.</span></li>
+                        <li class="work-experience-item"><span class="work-experience-text">Risus commodo viverra maecenas.</span></li>
+                    </ul>
+                </div>
+
+                <!--Company1 container-->
+                <div class="work-experience-company">
+                    <h4 class="main-content-title2"><span class="main-content-title2-position">Manager</span> Roga & Kopyta LLC</h4>
+                    <p class="main-content-periodplaceinfo">June 2014 - February 2015 <span class="main-content-periodplaceinfo-separator">|</span> Country</p>
+                    <ul class="work-experience-list">
+                        <li class="work-experience-item"><span class="work-experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></li>
+                        <li class="work-experience-item"><span class="work-experience-text">Quis ipsum suspendisse ultrices gravida.</span></li>
+                        <li class="work-experience-item"><span class="work-experience-text">Risus commodo viverra maecenas.</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Education container-->
+            <div>
+                <h3 class="main-content-title">Education</h3>
+                <h4 class="main-content-title2">National University of Radioelectronics</h4>
+                <h5 class="main-content-title3">Management</h5>
+                <p class="main-content-periodplaceinfo">September 2009 - June 2014 <span class="main-content-periodplaceinfo-separator">|</span> Country</p>
+            </div>
+
+        </div>
+
+        <!--Sidebar container-->
+        <aside class="sidebar-container">
+            <img class="img" src="img/photo.jpg" alt="my photo" >
+
+            <!--Contacts container-->
+            <div class="contacts-container">
+                <h3 class="sidebar-title">Contacts</h3>
+                <div>
+                    <span class="contacts-datatype">C:</span>
+                    <a class="contacts-data" href="tel:+77777777777">+7 777 777 77 77</a>
+                </div>
+                <div>
+                    <span class="contacts-datatype">E:</span>
+                    <a class="contacts-data" id="email" href="mailto:k.sharamok@gmail.com">sharamokkv@gmail.com</a>
+                </div>
+            </div>
+        
+            <!--Tech Skills container-->
+            <div class="tech-skills-container">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item"><span class="skills-item-text">HTML5</span></li>
+                    <li class="skills-item"><span class="skills-item-text">CSS3</span></li>
+                    <li class="skills-item"><span class="skills-item-text">GIT</span></li>
+
+                    <li class="skills-item"><span class="skills-item-text">WebPack</span></li>
+                    <li class="skills-item"><span class="skills-item-text">JavaScript</span></li>
+                    <li class="skills-item"><span class="skills-item-text">React.js</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Node.js</span></li>
+                </ul>
+            </div>
+        
+            <!--Soft Skills container-->
+            <div class="soft-skills-container">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item"><span class="skills-item-text">Scrum</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Agile</span></li>
+                    <li class="skills-item"><span class="skills-item-text">GTD</span></li>
+                    <li class="skills-item"><span class="skills-item-text">Teamwork</span></li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+</body>
+</html>

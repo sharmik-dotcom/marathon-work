@@ -1,0 +1,205 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f5f7fa;
+}
+
+/* Main container */
+.main-container {
+  /*размещение главного контент-контейнера по горизонтали; используемая технология: Flexbox*/
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #ffffff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content container */
+.main-content-container {
+  padding: 100px 90px 100px 90px;
+}
+
+/* Main content titles */
+.main-content-title,
+.main-content-title2,
+.main-content-title3 {
+  font-style: normal;
+  font-weight: bold;
+}
+/* Main content title */
+.main-content-title {
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 12px 0;
+}
+/* Main content title2 */
+.main-content-title2 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 12px 0 11px 0;
+}
+/* Main content title2-position */
+.main-content-title2-position {
+  color: #000000;
+}
+/* Main content title3 */
+.main-content-title3 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+/* Main content periodplaceinfo */
+.main-content-periodplaceinfo {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 8px 0;
+}
+/* Main content periodplaceinfo separator */
+.main-content-periodplaceinfo-separator {
+  color: #000000;
+}
+
+/* About me container */
+.about-me-container {
+  margin: 0 0 40px 0;
+}
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 25px 0;
+}
+.about-me-description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin: 0 0 40px 0;
+}
+
+/* Projects container */
+.projects-container {
+  margin: 0 0 50px 0;
+}
+.projects-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 0 0 15px;
+}
+.projects-item {
+  font-weight: bold;
+  color: #000000;
+}
+.projects-item-text {
+  font-weight: normal;
+  color: #595959;
+  margin-left: 13px;
+}
+.projects-item-link {
+  font-weight: normal;
+  color: #595959;
+}
+.projects-item-bracket {
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Work experience container */
+.work-experience-container {
+  margin: 51px 0 43px 0;
+}
+.work-experience-company {
+  margin: 0 0 18px 0;
+}
+.work-experience-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding: 0 0 0 15px;
+  margin: 8px 0 0 0;
+}
+.work-experience-item {
+  font-weight: bold;
+}
+.work-experience-text {
+  font-weight: normal;
+}
+
+/* Sidebar container */
+.sidebar-container {
+  background-color: #1e2939;
+  width: 370px;
+  padding: 40px 0;
+}
+
+.img {
+  /* display: block; */
+  width: 370px;
+  /* width: 100%;
+  max-width: 100%; */
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.contacts-container,
+.tech-skills-container {
+  margin: 50px 0 0 40px; /*clockwise*/
+}
+.soft-skills-container {
+  margin: 45px 0 0 40px;
+}
+.contacts-datatype {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.contacts-data {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #565e6a;
+}
+.skills-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 0 0 17px;
+}
+.skills-item {
+  font-weight: bold;
+  color: #fb6d3a;
+}
+.skills-item-text {
+  font-weight: normal;
+  color: #ffffff;
+}
